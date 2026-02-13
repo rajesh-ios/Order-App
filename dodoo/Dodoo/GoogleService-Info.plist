@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>401458067487-vk8qqrfo49m4rnr4g1frkooov3tfo3le.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.401458067487-vk8qqrfo49m4rnr4g1frkooov3tfo3le</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>401458067487-738kk8smfqtgo0oq8m8a5eolfsmfep9b.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAG37GURqE5fq11uc8jGt2jBMe9DZMvOzM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>401458067487</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.iosapp.dodoo</string>
+	<key>PROJECT_ID</key>
+	<string>dodoo-225e6</string>
+	<key>STORAGE_BUCKET</key>
+	<string>dodoo-225e6.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:401458067487:ios:23cb4f5357c756a5</string>
+	<key>DATABASE_URL</key>
+	<string>https://dodoo-225e6.firebaseio.com</string>
+</dict>
+</plist>

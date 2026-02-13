@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="QuickMenuCell" id="gTV-IL-0wX" customClass="QuickMenuCell" customModule="Dodoo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="85" height="74"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="85" height="74"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1tL-Yc-g0N">
+                        <rect key="frame" x="0.0" y="0.0" width="85" height="74"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ox3-wO-SWC">
+                        <rect key="frame" x="0.0" y="0.0" width="85" height="74"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Orders Color" translatesAutoresizingMaskIntoConstraints="NO" id="MOU-bp-htM">
+                                <rect key="frame" x="20.5" y="0.0" width="44" height="44"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="44" id="7Jw-EY-eE9"/>
+                                    <constraint firstAttribute="height" constant="44" id="jyT-0i-fz3"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="22"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Order" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Isf-O1-84M">
+                                <rect key="frame" x="8" y="52" width="69" height="14"/>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="12"/>
+                                <color key="textColor" white="0.0" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vLg-mk-UV0">
+                                <rect key="frame" x="0.0" y="0.0" width="85" height="74"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Isf-O1-84M" secondAttribute="bottom" constant="8" id="1EL-s6-FUY"/>
+                            <constraint firstAttribute="trailing" secondItem="vLg-mk-UV0" secondAttribute="trailing" id="2yf-vh-V2I"/>
+                            <constraint firstItem="vLg-mk-UV0" firstAttribute="top" secondItem="ox3-wO-SWC" secondAttribute="top" id="3Ch-Y8-GkB"/>
+                            <constraint firstAttribute="trailing" secondItem="Isf-O1-84M" secondAttribute="trailing" constant="8" id="D8y-iF-z50"/>
+                            <constraint firstItem="Isf-O1-84M" firstAttribute="leading" secondItem="ox3-wO-SWC" secondAttribute="leading" constant="8" id="Jee-7u-P16"/>
+                            <constraint firstItem="MOU-bp-htM" firstAttribute="top" secondItem="ox3-wO-SWC" secondAttribute="top" id="VqD-zy-pkF"/>
+                            <constraint firstItem="Isf-O1-84M" firstAttribute="top" secondItem="MOU-bp-htM" secondAttribute="bottom" constant="8" id="b0A-HV-Zib"/>
+                            <constraint firstItem="Isf-O1-84M" firstAttribute="centerX" secondItem="MOU-bp-htM" secondAttribute="centerX" id="oiB-dU-mOP"/>
+                            <constraint firstItem="MOU-bp-htM" firstAttribute="centerX" secondItem="ox3-wO-SWC" secondAttribute="centerX" id="s0A-Ns-uAI"/>
+                            <constraint firstItem="vLg-mk-UV0" firstAttribute="leading" secondItem="ox3-wO-SWC" secondAttribute="leading" id="wJ0-E6-Ekk"/>
+                            <constraint firstAttribute="bottom" secondItem="vLg-mk-UV0" secondAttribute="bottom" id="yRN-cA-cBd"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="ox3-wO-SWC" secondAttribute="trailing" id="2nZ-ng-yqL"/>
+                <constraint firstAttribute="bottom" secondItem="ox3-wO-SWC" secondAttribute="bottom" id="AUZ-sV-Dks"/>
+                <constraint firstItem="1tL-Yc-g0N" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Fmj-1k-sPf"/>
+                <constraint firstItem="1tL-Yc-g0N" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Mqn-N9-pxU"/>
+                <constraint firstAttribute="trailing" secondItem="1tL-Yc-g0N" secondAttribute="trailing" id="Xan-ai-abo"/>
+                <constraint firstItem="ox3-wO-SWC" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="efa-be-RG5"/>
+                <constraint firstAttribute="bottom" secondItem="1tL-Yc-g0N" secondAttribute="bottom" id="gK6-dR-qGd"/>
+                <constraint firstItem="ox3-wO-SWC" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="kzB-15-auK"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="85" height="74"/>
+            <connections>
+                <outlet property="imgMenu" destination="MOU-bp-htM" id="jRB-Fu-EuS"/>
+                <outlet property="lblMenu" destination="Isf-O1-84M" id="DU8-hY-zNH"/>
+            </connections>
+            <point key="canvasLocation" x="165.59999999999999" y="164.6176911544228"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Orders Color" width="24" height="24"/>
+    </resources>
+</document>

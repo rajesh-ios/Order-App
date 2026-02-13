@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MyAddressCell" rowHeight="61" id="KGk-i7-Jjw" customClass="MyAddressCell" customModule="Dodoo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="61"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="61"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MqL-X4-JGb">
+                        <rect key="frame" x="8" y="8" width="304" height="45"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kvP-Cl-eNO">
+                                <rect key="frame" x="8" y="4" width="260" height="19.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dbo-TG-aLp">
+                                <rect key="frame" x="276" y="9" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="8lX-di-Ux8"/>
+                                    <constraint firstAttribute="height" constant="20" id="Q1X-6P-KHC"/>
+                                </constraints>
+                                <state key="normal" image="more"/>
+                                <connections>
+                                    <action selector="btnOnTapBurgerAct:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="6rW-X1-oAp"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Desc" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P17-Am-X9U">
+                                <rect key="frame" x="8" y="25.5" width="260" height="15.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Dbo-TG-aLp" secondAttribute="trailing" constant="8" id="EZx-Ix-h9n"/>
+                            <constraint firstItem="Dbo-TG-aLp" firstAttribute="top" secondItem="kvP-Cl-eNO" secondAttribute="top" constant="5" id="KDQ-sZ-Xau"/>
+                            <constraint firstItem="P17-Am-X9U" firstAttribute="leading" secondItem="kvP-Cl-eNO" secondAttribute="leading" id="KuM-Nj-xow"/>
+                            <constraint firstItem="kvP-Cl-eNO" firstAttribute="leading" secondItem="MqL-X4-JGb" secondAttribute="leading" constant="8" id="NZh-9j-DNL"/>
+                            <constraint firstItem="P17-Am-X9U" firstAttribute="trailing" secondItem="kvP-Cl-eNO" secondAttribute="trailing" id="fBV-B6-B4p"/>
+                            <constraint firstItem="P17-Am-X9U" firstAttribute="top" secondItem="kvP-Cl-eNO" secondAttribute="bottom" constant="2" id="npi-e4-LG4"/>
+                            <constraint firstAttribute="bottom" secondItem="P17-Am-X9U" secondAttribute="bottom" constant="4" id="nrZ-gz-qls"/>
+                            <constraint firstItem="Dbo-TG-aLp" firstAttribute="leading" secondItem="kvP-Cl-eNO" secondAttribute="trailing" constant="8" id="qSn-dE-OHj"/>
+                            <constraint firstItem="kvP-Cl-eNO" firstAttribute="top" secondItem="MqL-X4-JGb" secondAttribute="top" constant="4" id="zZ2-PS-QPC"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColo">
+                                <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="size" keyPath="shadowOffse">
+                                <size key="value" width="0.0" height="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadiu">
+                                <real key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacit">
+                                <real key="value" value="0.5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="MqL-X4-JGb" secondAttribute="trailing" constant="8" id="AZw-8n-v74"/>
+                    <constraint firstItem="MqL-X4-JGb" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="JTP-4W-NeL"/>
+                    <constraint firstItem="MqL-X4-JGb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="XGG-3Q-HVf"/>
+                    <constraint firstAttribute="bottom" secondItem="MqL-X4-JGb" secondAttribute="bottom" constant="8" id="pHr-wn-cs6"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lblDesc" destination="P17-Am-X9U" id="5Mb-i0-yMp"/>
+                <outlet property="lblTitle" destination="kvP-Cl-eNO" id="5i2-c2-eze"/>
+            </connections>
+            <point key="canvasLocation" x="-146.37681159420291" y="95.424107142857139"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="more" width="32" height="32"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,152 @@
+/*
+  Localize.strings
+  Dodoo
+
+  Created by SHUBHAM DHINGRA on 12/23/18.
+  Copyright © 2018 SHUBHAM DHINGRA. All rights reserved.
+*/
+
+
+"GoogleServiceAPIKey" = "AIzaSyCalqvOZJgQoqXLvo_VaLu6MOSq4sCBt1Y";
+"schduleAnOrder" = "Schedule an Order";
+"schdeduleDesc" = "Schedule anything listed on the DoDoo app with no hassle";
+"skip" = "Skip";
+"next" = "Next";
+"itemPickAndDrop" = "Item Pick & Drop";
+"itemPickAndDropDesc" = "Pick and drop anything within your city at anytime";
+"addAnSubscription" = "Add a Subscription";
+"addAnSubscriptionDesc" = "Also you can subscribe to and order and schedule it daily/weekly/monthly";
+
+"pickUpAddress" = "Pickup door number";
+"pickUpLandmark" = "Pickup area name";
+"nearestLandmark" = "Drop door number";
+"nearestAddress" = "Drop area name";
+"proceedToPay" = "Proceed to pay";
+"proceed" = "Proceed";
+
+"InsertSucess" = "Insert Success";
+"RegisterSuccess" = "Register Successfully";
+"somethingWentWrong" = "Something Went Wrong";
+"accountDetails" = "Account Details";
+"inviteFriends" = "Invite Friends";
+"support" = "Support";
+"feedback" = "Feedback";
+"changePassword" = "Change Password";
+"logout" = "Logout";
+"success" = "Success";
+"wallet" = "Wallet";
+"myaddress" = "My Addresses";
+"update" = "Update";
+"title" = "Title";
+"appUpdate" = "Experience the new version of DoDoo. Available on the app Store";
+"onlinePaymentMode" = "Please select payment mode";
+
+/* Alert Button */
+"Settings" = "Settings";
+"cancel" = "Cancel";
+"Camera" = "Camera";
+"Gallery" = "Gallery";
+"SettingsCameraApp" = "Camera permissions need to be allowed to set the profile Image . Please allow Camera Permissions from settings.";
+"SettingsGalleryApp" = "Gallery permissions need to be allowed to set the profile Image . Please allow Photo Permissions from settings.";
+"SettingsLocationApp" = "Location permissions need to be allowed to get the nearby store from your current location. Please allow Location Permissions from settings.";
+"customerSupport" = "Customer Support";
+"enquiry" = "Enquiry";
+"LogoutSure" = "Are you sure you want to log out?";
+"logout" = "Logout";
+"ok" = "Ok";
+"cancel" = "Cancel";
+"done" = "Done";
+"firstName" = "First name";
+"lastName" = "Last name";
+"middleName" = "Middle name";
+"name" = "Name";
+"email" = "email";
+"password" = "password";
+"newpassword" = " new password";
+"info" = "";
+"mobile" = "Contact number";
+"country" = "Country";
+"state" = "State";
+"city" = "City";
+"zipCode" = "Zip Code";
+"district" = "District";
+"buildingNo" = "Building No";
+"designation" = "designation";
+"companyId" = "companyId";
+"address" = "Address";
+"building" = "building name";
+"amount" = "amount";
+"extension" = "extension";
+"image" = "image";
+"CommRegNo" = "Commercial Registration Number";
+"AuthPersonnelId" = "Authorized Personnel Id";
+"dob" = "Date";
+"chooseTime" = "Choose Time";
+"chooseDate" = "Choose Date";
+"type Here" = "Type Here";
+"bookingTime" = "Booking Time";
+"serviceCharge"  = "Service Charge";
+"serviceOrder" = "Service Order";
+"viewMore" = "View More";
+"landmark" = "Landmark";
+
+
+/* Validation Messages */
+"validEmpty" = "Please enter ";
+"validAllSpaces" = "Enter the ";
+"inValid" = " Please enter a valid ";
+"validAllZeros" = "Please enter a valid ";
+"validHasSpecialCharacter" = " can only contain A-z, a-z characters only";
+"validNotANumber" = " must be a number ";
+"validEmptyCountrCode" = "Enter country code ";
+"validMobileNumberLength" = " Please Enter a Valid Phone Number";
+"validPwd" = "Password length should be between 6-15 characters";
+"validPinCode" = "PinCode length should be less than 6 characters";
+"validZip" = "Pincode should not contain special characters";
+"validCurrency" = "Please Select a Currency Symbol";
+"validMatchPassword" = "Password does not Match";
+"validImage" = "Please upload an Image";
+"validRegNo" = "Please Enter Commercial Registration Number";
+"validPersonnelId" = "Please Enter Authorized Personnel Id";
+"validCountry" = "Please choose Your Country";
+"ChooseCountry" = "Choose Your Country";
+"validateDOB" = "Select Your Date of Birth";
+"validateTermsAndCond" = "Please agreee the terms and Conditions";
+"validateArabCountry" = "Our Service is not started in the selected Country";
+"validateOneService" = "Please select one service to Continue";
+"validatePaymentMethod" = "Please select one payment method to Continue..";
+"Please enter new password" = "Please enter new password";
+"Please re-type password" = "Please re-type password";
+"Password does not match" =  "Password does not match";
+"saveSubscriptionSuccess" = "Saved subscription succcesfully";
+"detailsSavedSuccess" = "Details saved successfully";
+"price" = "₹%@ each";
+"priceInRs" = "₹%@";
+"menuNotAvailable" = "Currently Menu Not %@ to order call us %@";
+"surpriseCouponCode" = "Coupon Code Applied Successfully. Surprise cashback amount  will be credited into your wallet after order is delivered.";
+"orderPlacedSuccess" = "Order placed successfully";
+"orderCancelSuccess" = "Your order is cancelled successfully";
+
+
+"title" = "title";
+"desc" = "description";
+"pickUpDoorNumber" = "pickup door number";
+"pickupareaname" = "pickup area name";
+"dropDoorNumber" = "drop door number";
+"dropAreaName" = "drop area name";
+"PleaseSelectDate" = "Please select time";
+"PleaseSelectTime" = "Please select date";
+"PleaseSelectDeliveryCycle" = "Please select delivery cycle";
+"cancelOrderConfirmation" = "Are you sure you want to cancel this order?";
+"attention" = "Attention";
+"noStoresAlert" = "We are coming up with new stores. Still you can order call us 9703001155";
+
+
+"useAsCurrent" = "Use as Current";
+"edit" = "Edit";
+"delete" = "Delete";
+"insertSuccess" = "Insert Success";
+"updateSuccess" = "Update Success";
+"walletDeductAmt" = "Only ₹%@ will be deducted from your wallet for this order";
+"minimumCartValueWalletError" = "Minimum Rs.200 cart value required to use wallet amount";
+"minimumCartValueCouponError" = "Price should be greater than Rs.300";

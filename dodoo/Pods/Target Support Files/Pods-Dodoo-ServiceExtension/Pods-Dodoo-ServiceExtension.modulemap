@@ -1,0 +1,6 @@
+framework module Pods_Dodoo_ServiceExtension {
+  umbrella header "Pods-Dodoo-ServiceExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}

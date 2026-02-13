@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="M4Y-Lb-cyx">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Notification View Controller-->
+        <scene sceneID="cwh-vc-ff4">
+            <objects>
+                <viewController id="M4Y-Lb-cyx" userLabel="Notification View Controller" customClass="NotificationViewController" customModule="ContentExtension" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" simulatedAppContext="notificationCenter" id="S3S-Oj-5AN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="294"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BlY-Fk-qdg">
+                                <rect key="frame" x="8" y="4" width="304" height="19.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HRC-L8-maX">
+                                <rect key="frame" x="8" y="25.5" width="304" height="14.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="WY4-jB-UI1">
+                                <rect key="frame" x="0.0" y="44" width="320" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="o1A-up-7kv"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="2BE-c3-nQJ"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="2BE-c3-nQJ" firstAttribute="trailing" secondItem="WY4-jB-UI1" secondAttribute="trailing" id="9pE-oE-fbG"/>
+                            <constraint firstItem="WY4-jB-UI1" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leading" id="Acs-qN-gC7"/>
+                            <constraint firstItem="HRC-L8-maX" firstAttribute="trailing" secondItem="BlY-Fk-qdg" secondAttribute="trailing" id="HZg-xJ-5a4"/>
+                            <constraint firstItem="BlY-Fk-qdg" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leading" constant="8" id="Jwe-Uj-Lbd"/>
+                            <constraint firstItem="BlY-Fk-qdg" firstAttribute="top" secondItem="S3S-Oj-5AN" secondAttribute="top" constant="4" id="Ppy-bn-gLh"/>
+                            <constraint firstAttribute="trailing" secondItem="BlY-Fk-qdg" secondAttribute="trailing" constant="8" id="Q3E-W4-gqf"/>
+                            <constraint firstItem="HRC-L8-maX" firstAttribute="leading" secondItem="BlY-Fk-qdg" secondAttribute="leading" id="USD-Ow-oD9"/>
+                            <constraint firstItem="WY4-jB-UI1" firstAttribute="top" secondItem="HRC-L8-maX" secondAttribute="bottom" constant="4" id="aMx-SS-lS5"/>
+                            <constraint firstItem="HRC-L8-maX" firstAttribute="top" secondItem="BlY-Fk-qdg" secondAttribute="bottom" constant="2" id="rhV-uc-2e4"/>
+                            <constraint firstItem="2BE-c3-nQJ" firstAttribute="bottom" secondItem="WY4-jB-UI1" secondAttribute="bottom" id="v5g-AI-rOc"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="294"/>
+                    <connections>
+                        <outlet property="imageView" destination="WY4-jB-UI1" id="sXi-kh-PQ4"/>
+                        <outlet property="lblTitle" destination="BlY-Fk-qdg" id="Yu5-BU-N1f"/>
+                        <outlet property="lbldescription" destination="HRC-L8-maX" id="YpV-II-WBQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vXp-U4-Rya" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="-8.0357142857142847"/>
+        </scene>
+    </scenes>
+</document>
