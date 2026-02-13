@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -71,6 +71,7 @@
 		1859D59726C6E83F002660FD /* ConfigurationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1859D59626C6E83E002660FD /* ConfigurationHandler.swift */; };
 		1859E47B274977AC005C8191 /* CFSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1859E47927497780005C8191 /* CFSDK.xcframework */; };
 		1859E47C274977AC005C8191 /* CFSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1859E47927497780005C8191 /* CFSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		188914232F3ECF3200A2D21C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 188914222F3ECF3100A2D21C /* README.md */; };
 		18B10A9628C9C0A800FB7C1F /* StoreCouponCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B10A9428C9C0A800FB7C1F /* StoreCouponCell.swift */; };
 		18B10A9728C9C0A800FB7C1F /* StoreCouponCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B10A9528C9C0A800FB7C1F /* StoreCouponCell.xib */; };
 		18B10A9928C9E7A200FB7C1F /* AddLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B10A9828C9E7A200FB7C1F /* AddLocationViewController.swift */; };
@@ -347,6 +348,7 @@
 		185199DE29459DCB00F1B335 /* PickUpDropViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickUpDropViewController.swift; sourceTree = "<group>"; };
 		1859D59626C6E83E002660FD /* ConfigurationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationHandler.swift; sourceTree = "<group>"; };
 		1859E47927497780005C8191 /* CFSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = CFSDK.xcframework; sourceTree = "<group>"; };
+		188914222F3ECF3100A2D21C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		18B10A9428C9C0A800FB7C1F /* StoreCouponCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreCouponCell.swift; sourceTree = "<group>"; };
 		18B10A9528C9C0A800FB7C1F /* StoreCouponCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoreCouponCell.xib; sourceTree = "<group>"; };
 		18B10A9828C9E7A200FB7C1F /* AddLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLocationViewController.swift; sourceTree = "<group>"; };
@@ -1176,6 +1178,7 @@
 				698862FA220FEE93008DEB42 /* OrderDetailsViewController.swift */,
 				7E589D4D222A577B00BB05B0 /* StoreItemViewController.swift */,
 				692781EC223DFD6C00455E48 /* OrderSummaryViewController.swift */,
+				188914222F3ECF3100A2D21C /* README.md */,
 			);
 			path = "Order Section";
 			sourceTree = "<group>";
@@ -1662,6 +1665,7 @@
 				69D7791522C7E91D00677A0B /* GoogleService-Info.plist in Resources */,
 				69C837D323C4F078000F1350 /* CouponCell.xib in Resources */,
 				18B10A9728C9C0A800FB7C1F /* StoreCouponCell.xib in Resources */,
+				188914232F3ECF3200A2D21C /* README.md in Resources */,
 				695D981D21CF69620062DC11 /* Localize.strings in Resources */,
 				2A350E202522379700F4DDF9 /* MyAddressCell.xib in Resources */,
 				6998EB1A21C8092200822460 /* Main.storyboard in Resources */,
@@ -1704,9 +1708,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Dodoo/Pods-Dodoo-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Dodoo/Pods-Dodoo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1721,9 +1729,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Dodoo/Pods-Dodoo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Dodoo/Pods-Dodoo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1760,9 +1772,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Dodoo-ServiceExtension/Pods-Dodoo-ServiceExtension-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Dodoo-ServiceExtension/Pods-Dodoo-ServiceExtension-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
