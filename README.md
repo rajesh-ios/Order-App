@@ -1,5 +1,3 @@
-// Dodoo – iOS App
-
 Dodoo is an iOS application for browsing stores, exploring menus, applying coupons, and placing orders with in‑app checkout. It supports location‑aware store discovery, wallet info, order rating, and a WhatsApp fallback for manual ordering when menus are unavailable.
 
 This repository contains the iOS client written in Swift using UIKit and a lightweight networking layer on top of Alamofire.
